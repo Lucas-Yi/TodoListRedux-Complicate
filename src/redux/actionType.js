@@ -1,0 +1,8 @@
+export const ADD_TODO = "ADD_TODO";
+export const TOGGLE_SELECTED = "TOGGLE_SELECTED";
+export const SET_COLOR = "SET_COLOR";
+export const DELETE_TODO = "DELETE_TODO";
+export const MARK_ALL_COMPLETE = "MARK_ALL_COMPLETE";
+export const CLEAR_COMPLETED = "CLEAR_COMPLETED"
+export const SET_STATUS_FILTER = "SET_STATUS_FILTER"
+export const SET_COLOR_FILTER = "SET_COLOR_FILTER"
