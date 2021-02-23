@@ -17,7 +17,6 @@ const RemainingTodos = ({ count }) => {
 const StatusFilter = ({statusFilter, onChange}) => {
   const renderedFilters = Object.keys(StatusFilters).map((key) => {
     const value = StatusFilters[key]
-    const handleClick = () => onChange(value)
     const className = value === statusFilter ? 'selected' : ''
     return (
       <li key={value}>
